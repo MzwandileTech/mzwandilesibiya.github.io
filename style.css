@@ -1,0 +1,113 @@
+body {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+}
+
+.home-content {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    shape-outside: circle(); /* Creates a circular shape around the image */
+}
+
+.intro-text {
+    max-width: 60%;
+    margin-left: 20px;
+}
+
+.contact-icons img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.scrolling-text {
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 18px;
+    font-style: italic;
+    animation: scrollAnimation 20s linear infinite;
+}
+
+@keyframes scrollAnimation {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #45a049;
+}
+section {
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+
+.skill p {
+    display: inline-block;
+    width: 150px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.percentage {
+    display: inline-block;
+    height: 20px;
+    background-color: #4CAF50;
+}
